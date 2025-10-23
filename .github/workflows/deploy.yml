@@ -3,11 +3,6 @@ name: Deploy to EC2
 on:
   workflow_dispatch:  # Manual only
 
-name: Deploy to EC2
-
-on:
-  workflow_dispatch:  # Manual only
-
 permissions:
   id-token: write
   contents: read
